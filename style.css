@@ -1,0 +1,192 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body{
+  height: 100%;
+  background: #000;
+  font-family: 'UberMove', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.container{
+  background-image: url('sawir.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 30%;
+  margin: auto;
+  color: black;
+}
+
+.watch{
+  position: absolute;
+  top: 1.5%;
+  background: rgb(58, 184, 58);
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  border-radius: 3rem;
+  font-weight: 600;
+  color:#FDFDFD;
+  padding: 0.3rem;
+  text-align: center;
+  width: 5rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.balance{
+  position: absolute;
+  left: 48%;
+  top: 6%;
+  text-align: center;
+  background: #222;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  border-radius: 3rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color:#FDFDFD;
+  padding: 0.6rem;
+  width: 8rem;
+}
+
+.hamburger-icon{
+  background:white;
+  padding: 1rem 1rem;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  color: #222;
+  position: absolute;
+  top: 6%;
+  margin-left: 1.2rem;
+  -webkit-box-shadow: 9px 20px 54px 1px rgba(0,0,0,0.60);
+  -moz-box-shadow: 9px 20px 54px 1px rgba(0,0,0,0.60);
+  box-shadow: 9px 20px 54px 1px rgba(0,0,0,0.60);
+}
+
+.search-icon{
+  background:white;
+  padding: 1rem 1rem;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  color: #222;
+  position: absolute;
+  top: 6%;
+  left: 60%;
+  margin-left: 2rem;
+  -webkit-box-shadow: 9px 20px 54px 1px rgba(0,0,0,0.60);
+  -moz-box-shadow: 9px 20px 54px 1px rgba(0,0,0,0.60);
+  box-shadow: 9px 20px 54px 1px rgba(0,0,0,0.60);
+}
+
+.safety-icon{
+  background:#fefefe;
+  padding: 0.7rem 1rem;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  color: blue;
+  position: absolute;
+  top: 78%;
+  margin-left: 2rem;
+  -webkit-box-shadow: 9px 20px 54px 1px rgba(0,0,0,0.60);
+  -moz-box-shadow: 9px 20px 54px 1px rgba(0,0,0,0.60);
+  box-shadow: 9px 20px 54px 1px rgba(0,0,0,0.60);
+}
+
+.black-footer{
+  height: 3.2rem;
+  width: 100%;
+  background: black;
+  position: absolute;
+  bottom:0%;
+  max-width: 80rem;
+}
+
+.horizontal-line{
+  height: 0.3rem;
+  width: 26%;
+  margin-left: 17rem;
+  border-radius: 5rem;
+  background: white;
+  position: absolute;
+  top: 58%;
+  max-width: 80rem;
+}
+
+.footer-section{
+  height: 10rem;
+  width: 100%;
+  max-width: 46.1rem;
+  background: white;
+  text-align: center;
+  color:black;
+  font-size: 2rem;
+  position: absolute;
+  bottom:0;
+}
+
+h4{
+  margin-top: 1.5rem;
+}
+
+.bottom-hamburger{
+  background:white;
+  padding: 1rem 1rem;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  color: #222;
+  position: absolute;
+  top: 12%;
+  left: 86%;
+  margin-left: 2rem;
+}
+
+
+.angle-up-icon{
+  padding: 1rem 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 50%;
+  color: black;
+  position: absolute;
+  top: 8%;
+  left: 2%;
+}
+
+.three-dots{
+  padding: 1rem 1rem;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  color: #222;
+  position: absolute;
+  top: 14%;
+  left: 84.2%;
+  margin-left: 2.2rem;
+}
+
+.go-online-circle{
+  background: rgb(75, 75, 207);
+  border-radius: 50%;
+  padding:2rem;
+  color: white;
+  font-size: 2.2rem;
+  font-weight: 480;
+  position: absolute;
+  top: 74%;
+  left: 48%;
+  -webkit-box-shadow: 9px 20px 54px 1px rgba(0,0,0,0.30);
+  -moz-box-shadow: 9px 20px 54px 1px rgba(0,0,0,0.30);
+  box-shadow: 9px 20px 54px 1px rgba(0,0,0,0.30);
+}
+
+
+
+
